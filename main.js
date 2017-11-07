@@ -11,6 +11,7 @@ func.getElevationForAddresses(ADDRESSES).then(geoResults => {
    console.log(sorted);
 
    console.log("DONE! :)");
+   return geoResults;
 }, err => {
     console.log('Error!', err);
 });
