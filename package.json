@@ -1,0 +1,24 @@
+{
+  "name": "google-geocode-elevation",
+  "version": "1.0.0",
+  "description": "Google Maps API usage for Geocoding and Elevation",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinsalerno/Google-Geocode-Elevation.git"
+  },
+  "author": "Kevin Salerno <kevinsalerno>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinsalerno/Google-Geocode-Elevation/issues"
+  },
+  "homepage": "https://github.com/kevinsalerno/Google-Geocode-Elevation#readme",
+  "dependencies": {
+    "node-geocoder": "^3.21.0",
+    "request": "^2.83.0"
+  }
+}
